@@ -1,6 +1,6 @@
 baseURL: "/"
 title: Naveed D. Riaziat
-paginate: 20
+pagination.pagerSize: 20
 theme: ["PaperModAcademic"]
 
 enableRobotsTXT: true
