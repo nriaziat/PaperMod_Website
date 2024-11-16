@@ -1,7 +1,7 @@
 baseURL: "/"
 title: Naveed D. Riaziat
 paginate: 20
-theme: ["PaperModAcademic", "hugo-embed-pdf-shortcode"]
+theme: ["PaperModAcademic"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -74,8 +74,8 @@ params:
     imageHeight: 240
   
   socialIcons:
-    - name: email
-      url: "mailto:hlee307[at]ucmerced.edu"
+    # - name: email
+    #   url: "mailto:hlee307[at]ucmerced.edu"
     - name: github
       url: "https://github.com/nriaziat"
     - name: googlescholar
