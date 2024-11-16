@@ -2,3 +2,6 @@
 	path = themes/PaperModAcademic
 	url = https://github.com/nriaziat/hugo-PaperMod-academics.git
 	branch = bugfix/site-social
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/mfg92/hugo-shortcode-gallery.git

@@ -1,7 +1,7 @@
 baseURL: "/"
 title: Naveed D. Riaziat
-pagination.pagerSize: 20
-theme: ["PaperModAcademic"]
+# pagination.pagerSize: 60
+theme: ["PaperModAcademic", "hugo-shortcode-gallery"]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -64,6 +64,7 @@ params:
     Title: Naveed D. Riaziat
     Content: |
         I am a PhD Candidate studying under Prof. Jeremy D. Brown in the [Haptics and Medical Robotics Lab](https://hamr.lcsr.jhu.edu) at Johns Hopkins University. 
+        Previously, I finished my BS in Mechanical Engineering at Purdue University and my MS in Robotics at Johns Hopkins University.
         My research focuses on advancing medical robotics technology, specifically with regards to surgeon-in-the-loop control, novel sensing methods, and haptic interfaces. 
         On occasion, I also fret about my espresso routine, take photos, and make pottery.\
         \
@@ -103,20 +104,21 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-# menu:
-#   main:
-#     - name: Publications
-#       url: pubs
-#       weight: 10
-#     - name: Work Experience
-#       url: work
-#       weight: 20
-#     - name: Skills
-#       url: skills
-#       weight: 30
-#     - name: Education
-#       url: education
-#       weight: 40
+
+menu:
+  main:
+    - name: Publications
+      url: pubs
+      weight: 10
+    - name: Pottery
+      url: pottery
+      weight: 20
+    - name: Photography
+      url: photography
+      weight: 30
+    - name: Work Experience 
+      url: work
+      weight: 40
     # - name: Search 
     #   url: search
     #   weight: 20
