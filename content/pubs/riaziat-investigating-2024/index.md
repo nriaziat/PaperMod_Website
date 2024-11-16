@@ -16,6 +16,8 @@ publication_types:
 venue: <strong> IEEE Robotics and Automation Letters </strong>
 page: "https://ieeexplore.ieee.org/abstract/document/10521760"
 paper: "/files/investigating2024.pdf"
+cover:
+  image: images/ms-front.pdf
 summary: The evolution of magnetically actuated millirobots gives rise to unique
   teleoperation challenges due to their non-traditional kinematic and dynamic architectures,
   as well as their frequent use of suboptimal imaging modalities. Recent investigations

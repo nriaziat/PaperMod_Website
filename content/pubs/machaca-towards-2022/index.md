@@ -16,6 +16,8 @@ venue: <strong> 2022 International Symposium on Medical Robotics (ISMR) </strong
 doi: 10.1109/ISMR48347.2022.9807479
 page: "https://ieeexplore.ieee.org/document/9807479"
 paper: "/files/towards2022.pdf"
+cover:
+  image: images/patient_cart.pdf
 summary: Current commercially available robotic minimally invasive surgery (RMIS)
   platforms provide no haptic feedback of tool interactions with the surgical environment.
   As a consequence, novice robotic surgeons must rely exclusively on visual feedback
