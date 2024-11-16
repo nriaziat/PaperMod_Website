@@ -6,4 +6,5 @@
 	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git
 [submodule "themes/PaperModAcademic"]
 	path = themes/PaperModAcademic
-	url = https://github.com/shinying/hugo-PaperMod-academics.git
+	url = https://github.com/nriaziat/hugo-PaperMod-academics.git
+	branch = bugfix/site-social
