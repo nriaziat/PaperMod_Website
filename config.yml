@@ -1,168 +1,124 @@
-baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "/"
 title: Naveed D. Riaziat
-paginate: 5
-theme: hugo-PaperMod
+paginate: 20
+theme: ["PaperModAcademic", "hugo-embed-pdf-shortcode"]
 
-enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-enableEmoji: true
-pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+
+# googleAnalytics: G-R2M9JEHJLQ
 
 minify:
-    disableXML: true
-    # minifyOutput: true
-
-languages:
-    en:
-        languageName: "English"
-        weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
-        menu:
-            main:
-                - name: Archive
-                  url: archives/
-                  weight: 5
-                - name: FRTags
-                  url: frtags
-                  weight: 10
-                - name: FRCategories
-                  url: frcategories
-                  weight: 10
-                - name: FRSeries
-                  url: frseries
-                  weight: 10
-                - name: NullLink
-                  url: "#"
-
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  disableXML: true
+  minifyOutput: true
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Naveed D. Riaziat Personal Website"
-    author: Naveed D. Riaziat
-    # author: ["Me", "You"] # multiple authors
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Naveed D. Riaziat
+  description: "PhD Student at Johns Hopkins University"
+  keywords: ["medical robotics", "haptic feedback", "algorithms"]
+  author: Me
+  images: ["images/profile.jpg"]
+  defaultTheme: light
+  disableThemeToggle: false
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    ShowToc: true
-    # comments: false
-    images: ["papermod-cover.png"]
+  ShowOnlySelectedPubs: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
 
-    profileMode:
-        enabled: true
-        title: Naveed D. Riaziat
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
-    homeInfoParams:
-        Title: "PaperMod"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
+  label:
+    text:
+    icon: /apple-touch-icon.png
+    iconHeight: 
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. This starter supports editing posts with NetlifyCMS, login at /admin. Most other configs (including this message!) happen in config.yml in the root directory.
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
 
-            - Do give a 🌟 on Github !
+  # home-info mode
+  homeInfoParams:
+    Title: Naveed D. Riaziat
+    Content: |
+        I am a PhD Candidate studying under Prof. Jeremy D. Brown in the [Haptics and Medical Robotics Lab](https://hamr.lcsr.jhu.edu) at Johns Hopkins University. 
+        My research focuses on advancing medical robotics technology, specifically with regards to surgeon-in-the-loop control, novel sensing methods, and haptic interfaces. 
+        On occasion, I also fret about my espresso routine, take photos, and make pottery.\
+        \
+        Download my [CV](/files/Academic_CV-redacted.pdf).
+    imageUrl: "images/profile.jpg"
+    imageTitle: profile
+    imageWidth: 240
+    imageHeight: 240
+  
+  socialIcons:
+    - name: email
+      url: "mailto:hlee307[at]ucmerced.edu"
+    - name: github
+      url: "https://github.com/nriaziat"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=IM1ku7MAAAAJ"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/nriaziat"
 
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+  analytics:
+    google:
+      SiteVerificationTag: -1-9r4oo9sAFcKiCWEg8koj3qpJdLUOO3-2L_E0jYqs
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+# menu:
+#   main:
+#     - name: Publications
+#       url: pubs
+#       weight: 10
+#     - name: Projects 
+#       url: projects
+#       weight: 20
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    assets:
-        disableHLJS: true
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
-
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        noClasses: false
-        # anchorLineNos: true
-        # codeFences: true
-        # guessSyntax: true
-        # lineNos: true
-        # style: monokai
-
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
