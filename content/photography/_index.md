@@ -11,5 +11,5 @@
     thumbnailHoverEffect="enlarge"
     lastRow="nojustify"
     resizeOptions="1200x600 q90 Lanczos"
-    rowHeight="200"
+    rowHeight="150"
 >}}

@@ -9,5 +9,7 @@
     embedPreview="true"
     thumbnailHoverEffect="enlarge"
     lastRow="nojustify"
-    resizeOptions="1200x600 q90 Lanczos"
+    resizeOptions="2400x1200 q90 Lanczos"
+    rowHeight="150"
+    showExif="false"
 >}}
