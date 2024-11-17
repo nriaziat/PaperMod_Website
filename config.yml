@@ -63,12 +63,11 @@ params:
   homeInfoParams:
     Title: Naveed D. Riaziat
     Content: |
-        I am a PhD Candidate studying under Prof. Jeremy D. Brown in the [Haptics and Medical Robotics Lab](https://hamr.lcsr.jhu.edu) at Johns Hopkins University. 
-        Previously, I finished my BS in Mechanical Engineering at Purdue University and my MS in Robotics at Johns Hopkins University.
+        I am a **PhD Candidate** studying under Prof. Jeremy D. Brown in the **[Haptics and Medical Robotics Lab](https://hamr.lcsr.jhu.edu)** at Johns Hopkins University. 
+        Previously, I finished my **BS in Mechanical Engineering at Purdue University** and my **MS in Robotics at Johns Hopkins University**.
         My research focuses on advancing medical robotics technology, specifically with regards to surgeon-in-the-loop control, novel sensing methods, and haptic interfaces. 
-        On occasion, I also fret about my espresso routine, take photos, and make pottery.\
-        \
-        Download my [CV](/files/Academic_CV-redacted.pdf).
+        On occasion, I also fret about my espresso routine, take [photos](photography), and make [pottery](pottery).
+        You can download my [CV here](/files/Academic_CV-redacted.pdf).
     imageUrl: "images/profile.jpg"
     imageTitle: profile
     imageWidth: 240
