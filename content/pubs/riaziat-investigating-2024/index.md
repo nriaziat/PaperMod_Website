@@ -1,7 +1,7 @@
 ---
 title: Investigating Haptic Feedback in Vision-Deficient Millirobot Telemanipulation
 authors:
-- name: <strong> Naveed D. Riaziat </strong>
+- name: <strong>Naveed D. Riaziat</strong>
   home: "#"
 - name: Onder Erin
   home: "https://www.ondererin.com"
