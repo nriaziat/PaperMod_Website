@@ -2,7 +2,7 @@
 title: An Open-Source Ungrounded Hapkit for Educational Applications
 authors:
 - name: Alexandra J. Miller
-- name: <strong> Naveed D. Riaziat </strong>
+- name: <strong>Naveed D. Riaziat</strong>
   home: "#"
 - name: Jeremy D. Brown
   home: "https://engineering.jhu.edu/faculty/jeremy-brown/"
