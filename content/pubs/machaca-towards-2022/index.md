@@ -4,7 +4,7 @@ title: Towards a ROS-based Modular Multi-Modality Haptic Feedback System for Rob
 authors:
 - name: Sergio Machaca
 - name: Zulekha Karachiwalla
-- name: <strong> Naveed D. Riaziat </strong>
+- name: <strong>Naveed D. Riaziat</strong>
   home: "#"
 - name: Jeremy D Brown
   home: "https://engineering.jhu.edu/faculty/jeremy-brown/"
