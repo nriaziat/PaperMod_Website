@@ -82,6 +82,12 @@ params:
       url: "https://scholar.google.com/citations?user=IM1ku7MAAAAJ"
     - name: linkedin
       url: "https://www.linkedin.com/in/nriaziat"
+    - name: bluesky
+      url: "https://bsky.app/profile/naveedriaziat.me"
+    - name: threads
+      url: "https://www.threads.net/@radiate"
+    - name: instagram
+      url: "https://www.instagram.com/radiate/"
 
   # analytics:
   #   google:
