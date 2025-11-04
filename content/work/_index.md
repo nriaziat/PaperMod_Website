@@ -2,6 +2,14 @@
 title: "Work Experience"
 ---
 
+## Robotics and Controls Engineer
+[{{< figure src="intuitive-logo-black-1060874-lo-res.png" alt="Intuitive Surgical" height="50" >}}](https://www.intuitive.com/en-us)
+
+*Sunnyvale, CA*  
+*June 2025 - Present*
+
+- Working on the Ion Systems Analyst team to develop safety and control algorithms for next generation robotic systems.
+
 ## Algorithms Engineering Intern
 [{{< figure src="intuitive-logo-black-1060874-lo-res.png" alt="Intuitive Surgical" height="50" >}}](https://www.intuitive.com/en-us)
 
